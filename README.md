@@ -11,6 +11,11 @@
 
 具体可参考代码，内有详细注释
 
+##使用
+```
+self.demoTableView.mj_header = [SwpHeaderRefresh headerWithRefreshingTarget:self refreshingAction:@selector(headerRereshingData)];
+```
+
 ##大概思路
 
 具体思路如下
